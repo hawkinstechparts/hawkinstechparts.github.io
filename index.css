@@ -53,7 +53,7 @@ h1{
     background: #797879b2;
     border: #292929 solid 2px;
     width: 75%;
-    margin-top: 9vw;
+    margin-top: 6vw;
     padding: 50px;
 
 }
@@ -98,7 +98,9 @@ a{
 }
 @media only screen 
 and (max-width : 320px) {
-  /* Styles */
+  *{
+      font-size: 0.9rem;
+  }
 }
 #ebay-img{
     height: 50px;
